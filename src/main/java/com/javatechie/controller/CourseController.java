@@ -62,8 +62,4 @@ public class CourseController {
         return "UP";
     }
 
-    @GetMapping("/vijayworks")
-    public String vijay() {
-        return "new youtube channel";
-    }
 }
