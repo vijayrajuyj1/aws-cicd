@@ -61,5 +61,9 @@ public class CourseController {
     public String healthCheck() {
         return "UP";
     }
-
+    
+    @GetMapping("/test")
+    public String welcome() {
+        return "vijay";
+    }
 }
