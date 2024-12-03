@@ -62,9 +62,8 @@ public class CourseController {
         return "UP";
     }
 
-    @GetMapping("/test")
-    public String welcome() {
-        return "welcome to vijay";
+    @GetMapping("/vijayworks")
+    public String vijay() {
+        return "new youtube channel";
     }
-
 }
